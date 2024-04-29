@@ -1,9 +1,9 @@
 def bin_search(items, i):
     counter = 0
     start = 0
-    end = len(items)-1
+    end = len(items) - 1
     while end > start:
-        mid = round((start+end) / 2)
+        mid = round((start + end) / 2)
         search = items[mid]
         if search == i:
             print(f"Counter {counter}")
@@ -15,5 +15,7 @@ def bin_search(items, i):
         counter += 1
     print(f"Counter {counter}")
     return None
-mylist = range(0,12045450000000)
+
+
+mylist = range(0, 1050)
 print(bin_search(mylist, 7))

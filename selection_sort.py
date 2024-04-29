@@ -6,18 +6,18 @@ def find_(arr, smallest=True):
     :return: the index fo the element smallest or largest
     """
     if smallest:
-        smallest_value = min(arr)
+        value = min(arr)
     else:
-        smallest_value = max(arr)
-    smallest_index = arr.index(smallest_value)
-    return smallest_index
+        value = max(arr)
+    _index = arr.index(value)
+    return _index
 
 
 def selection_sort(arr):
     new_arr = []
     for i in range(len(arr)):
-        smallest = find_(arr, smallest=False)
-        new_arr.append(arr.pop(smallest))
+        value = find_(arr, smallest=False)
+        new_arr.append(arr.pop(value))
     return new_arr
 
 
