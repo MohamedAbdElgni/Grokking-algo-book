@@ -13,6 +13,12 @@ def quick_sort(arr):
 
 start_time = time.time()
 
-print(quick_sort([66, 18, 500, 23, 214, 154, 887, 5]))
+
+# print(quick_sort([66, 18, 500, 23, 214, 154, 887, 5]))
+
+
+def quick_sort_pointers(arr, left, right):
+    pass
+
 
 print(f"End Time: {time.time() - start_time}")
