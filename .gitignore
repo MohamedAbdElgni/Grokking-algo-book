@@ -1,2 +1,8 @@
 # created by virtualenv automatically
 .venv
+scratches.md
+ideas.md
+mr.md
+mr*.md
+*.env
+.idea
